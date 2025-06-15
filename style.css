@@ -1,0 +1,46 @@
+<style >
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #f9f9f9;
+}
+
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.video-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 300px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+    .video-card img {
+        width: 100%;
+        display: block;
+    }
+
+.video-info {
+    padding: 10px;
+}
+
+.video-title {
+    font-size: 16px;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+    a:hover {
+        color: #0073e6;
+    }
+
+</style >
